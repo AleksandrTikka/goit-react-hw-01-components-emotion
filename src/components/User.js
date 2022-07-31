@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
-export default function User (props) {
-    ({username,
+export default function User ({username,
     tag,
     location,
     avatar,
-    stats}) = props
+    stats}) {
   return (
     <div class="profile">
       <div class="description">
