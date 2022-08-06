@@ -1,4 +1,42 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize;  */
+/* bring in normalize.css styles */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+:root {
+--main-bgcolor: #dee5e8;
+--firstly-bgcolor: #ffffff;
+--secondary-bgcolor: #eceded;
+--gray-textcolor: #9f9f9f;
+--light-textcolor: #ffffff;
+--dark-textcolor: #212022;
+--border-color: #bec8c8;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
 
 body {
   margin: 0;
@@ -7,6 +45,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bgcolor);
+  color: var(--dark-textcolor);
 }
 
 code {

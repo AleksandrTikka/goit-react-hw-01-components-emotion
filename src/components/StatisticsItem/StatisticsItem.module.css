@@ -1,0 +1,16 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100%/5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--light-textcolor);
+}
+
+.label {
+    margin-bottom: 10px;
+}
+
+.percentage {
+    font-size: 20px;
+}

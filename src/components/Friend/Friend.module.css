@@ -1,0 +1,28 @@
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--firstly-bgcolor);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.avatar {
+    margin-left: 15px;
+    background-color: var(--secondary-bgcolor);
+    border-radius: 5px;
+}
+
+.name {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
