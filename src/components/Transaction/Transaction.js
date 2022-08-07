@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-
 export default function Transaction ({ id, type, amount, currency }) {
     return (
     <tr key={id}>
