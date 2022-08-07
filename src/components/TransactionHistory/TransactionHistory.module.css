@@ -1,45 +1,41 @@
 .transactionHistory {
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 30px;
-    box-shadow: var(--main-shadow);
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: var(--main-shadow);
 }
 
-.transactionHistory thead th{
-    background-color: aqua;
-    color: var(--light-textcolor);
-    text-transform: uppercase;
-    font-size: 14px;
-    width: calc(100%/3);
-   
+.transactionHistory thead th {
+  background-color: aqua;
+  color: var(--light-textcolor);
+  text-transform: uppercase;
+  font-size: 14px;
+  width: calc(100% / 3);
 }
 
 .transactionHistory td,
-/* .transactionHistory tr, */
-.transactionHistory th{
-    outline: 1px solid;
-    outline-color: var(--border-color);
-    padding-top: 5px;
-    padding-bottom: 5px;
+.transactionHistory th {
+  outline: 1px solid;
+  outline-color: var(--border-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.transactionHistory tr:nth-child(2n+1) {
-background-color: var(--firstly-bgcolor);
+.transactionHistory tr:nth-child(2n + 1) {
+  background-color: var(--firstly-bgcolor);
 }
 
 .transactionHistory tr:nth-child(2n) {
-    background-color: var(--secondary-bgcolor);
+  background-color: var(--secondary-bgcolor);
 }
 
 .transactionHistory td:first-child {
-    text-align: left;
-    padding-left: 30px;
+  text-align: left;
+  padding-left: 30px;
 }
 
 .transactionHistory td {
-    color: var(--gray-textcolor);
+  color: var(--gray-textcolor);
 }
-
-
