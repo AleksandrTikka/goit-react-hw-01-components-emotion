@@ -19,6 +19,8 @@ html {
 --light-textcolor: #ffffff;
 --dark-textcolor: #212022;
 --border-color: #bec8c8;
+--main-shadow:3px 3px 5px #00000040,
+  0 5px 5px #00000038;
 }
 
 

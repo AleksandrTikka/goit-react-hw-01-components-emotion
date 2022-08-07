@@ -6,6 +6,7 @@
     width: 350px;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: var(--main-shadow);
 }
 
 .title {

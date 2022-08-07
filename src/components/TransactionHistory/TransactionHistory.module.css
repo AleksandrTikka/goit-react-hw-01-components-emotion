@@ -4,6 +4,7 @@
     margin-right: auto;
     text-align: center;
     margin-bottom: 30px;
+    box-shadow: var(--main-shadow);
 }
 
 .transactionHistory thead th{
